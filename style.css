@@ -18,23 +18,45 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: xx-large;
 
     margin-left: 25%;
+color: black;
+    
 
     
 }
+
+body {
+    overflow-x: hidden; 
+  }
+  .whole-container {
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 0;
+  }
 #offer{
+   
+background-color: green;
+    width: 99vw;
+    position: relative; 
+    left: 50%;
+    right: 50%;
+    margin-left: -45.3vw;
+    margin-right: -50vw;
+    margin-bottom: 45px;
+    padding: 10px;
+    align-items: center;
     text-align: center;
-    justify-content: center;
-    background-color: rgb(122, 190, 122);
 
-    width: 128%;
-    width: 129%;
-
-    padding: 20px;
-    position: relative;
     
-    
+ @media (max-width: 768px) {
+       .Header-container {
+         
+          
+        }
+      } 
 }
 #background-image {
    
@@ -42,13 +64,17 @@
     object-fit: cover;
     position: relative;
     height: 10%;
+    flex-wrap: ;
+    background-repeat: no-repeat;
+    
 }
 .text{
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-left: 60%;
-    font-size: larger;
+    
+    font-size:xx-large ;
 }
 .Header-container{
     position: absolute;
@@ -63,6 +89,7 @@
    font-size: xx-large;}
 .nav-container{
     display: flex;
+    
     
     position: relative;
     
@@ -163,6 +190,8 @@ text-align: center;
 }
 .inner_sec{
     display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
 }
 .section_IV{
     display: flex;
@@ -363,6 +392,16 @@ height: 150px;
             margin-left: 0;
             width: 100%;
             justify-content: center;
+            flex-wrap: wrap;
+        }
+        #background-image{
+          flex-wrap: wrap;  
+          object-fit: cover;
+
+        }
+        .navigations a{
+            flex-wrap: wrap;
+            
         }
     
         .Header-container {
@@ -370,6 +409,8 @@ height: 150px;
             bottom: 0;
             padding: 20px;
             text-align: center;
+            flex-wrap: wrap;
+            flex: 1,1;
         }
     
         .text {
@@ -441,6 +482,7 @@ height: 150px;
         .fa-location-dot {
             font-size: 400%;
         }
+       
     
         .email-icon {
             flex-direction: column;
