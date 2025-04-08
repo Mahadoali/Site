@@ -8,6 +8,7 @@
     text-decoration: none;
     margin-left: 60%;
     color: white;
+    margin-left: 40%;
     
     
 }
@@ -17,13 +18,19 @@
     text-align: center;
     margin: 0;
     padding: 0;
+
+    margin-left: 25%;
+
     
 }
 #offer{
     text-align: center;
     justify-content: center;
     background-color: rgb(122, 190, 122);
+
     width: 128%;
+    width: 129%;
+
     padding: 20px;
     position: relative;
     
@@ -438,5 +445,4 @@ height: 150px;
         .email-icon {
             flex-direction: column;
             gap: 10px;
-        }
-    }
+        }}
